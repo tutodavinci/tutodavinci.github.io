@@ -1,0 +1,182 @@
+/*
+* 
+* @author Jamilton Damasceno
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+html, body .capa {
+	height: 100%;
+
+}
+
+
+
+body{
+	
+	background: url("imagens/capa.png") ,
+				url("imagens/ruido.png") ;
+				
+	background-attachment: fixed;
+	font-family: helvetica, arial, sans-serif;		
+	overflow-x: hidden;
+			
+
+}
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 110px;
+	width: 102px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+	padding: 1px 1px 5px 1px;
+}
+
+nav.navbar-transparente {
+	padding: 10px 0px;
+	background: rgb(64, 224, 208);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.navbar-right{
+	margin-right: 20px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a,footer .nav a {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,footer .nav a:hover {
+	color:#008B8B;
+	background: none;
+}
+
+
+/* -- Imagem de capa -- */
+
+.capa {
+	
+	display: table;
+	width: 100%;
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Botoes*/
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+	background: #7c25f8;
+
+}
+.btn-roxo: hover {
+	background-color: #6207e3;
+	color:white;
+}
+
+.btn-branco{
+	border: 2px solid white;	
+}
+.btn-branco:hover{
+	background-color: white;
+	color:black;
+}
+
+	/*-- Seção de serviços--*/
+ #serviços{
+	background:white;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px  10px 0px;
+
+}	
+
+/*-- Seção de recursos--*/
+ #recursos{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+
+
+/*-- rodapé --*/
+.corpy{
+	padding-top: 50px;
+}
+
+footer{
+	background:#000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+
+.item-rede-social{
+	float: right;
+	padding-bottom: 30px;
+}
+/* ========================= Tipografia ======================== */
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing:-0.05em;
+	margin-bottom: 50px;
+}
+
+
+h2{
+	font-size:50px;
+	font-weight: 700;
+	letter-spacing:-0.04em;
+	}
+
+h3{
+	font-size:35px;
+	font-weight: 700;
+	letter-spacing:-0.04em;
+	}
+
+
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	
+
+}
+#serviços h2, #serviços h3 {
+		color:#20B2AA;
+	}
+
+ #recursos h3 {
+		color: #20B2AA;
+	}
